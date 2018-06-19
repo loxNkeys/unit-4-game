@@ -2,7 +2,7 @@ html, body{
   height: 100%;
 }
 body { 
-  background-image: url(assets/images/dstar.jpg) ;
+  background-image: url(../images/dstar.jpg) ;
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
@@ -17,22 +17,104 @@ div, body{
   font-family: exo, sans-serif;
   
 }
-.wrapper {
-  height: 100%; 
-  width: 100%; 
-}
+
 
 .message {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 100%; 
-  height:45%;
+  height:10%;
   bottom: 0; 
   display: block;
-  position: absolute;
+  position: relative;
+  float: right;
   background-color: rgba(0,0,0,0.6);
-  color: #fff;
-  padding: 0.5em;
+  color: #fd5a1e;
+  margin-right: 4em;
+  padding: 1em;
 }
-
+.characterSelect div{
+  z-index: 100;
+  height:150px;
+  width: 150px;
+}
+#one {
+  bottom: 0; 
+  float: left;
+  background-color: rgba(0,0,0,0.6);
+  color: #fd5a1e;
+  margin-right: 4em;
+  padding: 1em;
+  display: inline;
+  z-index: 100;
+}
+#two {
+  bottom: 0; 
+  float: left;
+  background-color: rgba(0,0,0,0.6);
+  color: #fd5a1e;
+  margin-right: 4em;
+  padding: 1em;
+  display: inline;
+  z-index: 100;
+}
+#three {
+  bottom: 0; 
+  float: left;
+  background-color: rgba(0,0,0,0.6);
+  color: #fd5a1e;
+  margin-right: 4em;
+  padding: 1em;
+  display: inline;
+  z-index: 100;
+}
+#four {
+  bottom: 0; 
+  float: left;
+  background-color: rgba(0,0,0,0.6);
+  color: #fd5a1e;
+  margin-right: 4em;
+  padding: 1em;
+  display: inline;
+  z-index: 100;
+}
+.container {
+  clear: all;
+  display: block;
+}
+.characters {
+  bottom: 0; 
+  float: left;
+  background-color: rgba(0,0,0,0.6);
+  color: #fd5a1e;
+  margin-right: 4em;
+  padding: 1em;
+  z-index: 100;
+}
+.enemies {
+  bottom: 0; 
+  float: left;
+  background-color: rgba(0,0,0,0.6);
+  color: #fd5a1e;
+  margin-right: 4em;
+  padding: 1em;
+  z-index: 100;
+}
+.fight {
+  bottom: 0; 
+  float: left;
+  background-color: rgba(0,0,0,0.6);
+  color: #fd5a1e;
+  margin-right: 4em;
+  padding: 1em;
+  z-index: 100;
+}
+.defender {
+  bottom: 0; 
+  float: left;
+  background-color: rgba(0,0,0,0.6);
+  color: #fd5a1e;
+  margin-right: 4em;
+  padding: 1em;
+  z-index: 100;
+}
