@@ -1,8 +1,8 @@
 html, body{
   height: 100%;
 }
-body { 
-  background-image: url(../images/dstar.jpg) ;
+  body { 
+  background-image: url(../images/dstar.jpg);
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
@@ -33,11 +33,13 @@ div, body{
   margin-right: 4em;
   padding: 1em;
 }
+
 .characterSelect div{
   z-index: 100;
   height:150px;
   width: 150px;
 }
+
 #one {
   bottom: 0; 
   float: left;
@@ -45,9 +47,10 @@ div, body{
   color: #fd5a1e;
   margin-right: 4em;
   padding: 1em;
-  display: inline;
+  /*display: inline;*/
   z-index: 100;
 }
+
 #two {
   bottom: 0; 
   float: left;
@@ -55,9 +58,10 @@ div, body{
   color: #fd5a1e;
   margin-right: 4em;
   padding: 1em;
-  display: inline;
+  /*display: inline;*/
   z-index: 100;
 }
+
 #three {
   bottom: 0; 
   float: left;
@@ -65,9 +69,10 @@ div, body{
   color: #fd5a1e;
   margin-right: 4em;
   padding: 1em;
-  display: inline;
+  /*display: inline;*/
   z-index: 100;
 }
+
 #four {
   bottom: 0; 
   float: left;
@@ -75,14 +80,15 @@ div, body{
   color: #fd5a1e;
   margin-right: 4em;
   padding: 1em;
-  display: inline;
+  /*display: inline;*/
   z-index: 100;
 }
+
 .container {
   clear: all;
-  display: block;
 }
-.characters {
+
+.characters {  
   bottom: 0; 
   float: left;
   background-color: rgba(0,0,0,0.6);
@@ -91,6 +97,7 @@ div, body{
   padding: 1em;
   z-index: 100;
 }
+
 .enemies {
   bottom: 0; 
   float: left;
@@ -100,6 +107,7 @@ div, body{
   padding: 1em;
   z-index: 100;
 }
+
 .fight {
   bottom: 0; 
   float: left;
@@ -109,6 +117,7 @@ div, body{
   padding: 1em;
   z-index: 100;
 }
+
 .defender {
   bottom: 0; 
   float: left;
@@ -118,3 +127,4 @@ div, body{
   padding: 1em;
   z-index: 100;
 }
+
